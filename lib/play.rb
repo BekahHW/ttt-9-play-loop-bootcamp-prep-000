@@ -45,7 +45,7 @@ puts 'X'
   
   if i <= 9 
    break
- 
+ end
  end
  end
 
