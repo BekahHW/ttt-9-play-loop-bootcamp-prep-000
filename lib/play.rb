@@ -38,8 +38,9 @@ end
 # Define your play method below
 
 def play(board)
-   if input <= 9
+  
 loop do
+   if i <= 9
 puts 'X'
    turn(board)
      
