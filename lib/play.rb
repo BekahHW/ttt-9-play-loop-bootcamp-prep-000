@@ -39,7 +39,7 @@ end
 
 def play(board)
   i=0 
-loop do
+while i<9
    i += 1
    turn(board)
    
