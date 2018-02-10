@@ -39,7 +39,7 @@ end
 
 def play(board)
 loop do
-turn(board)
+puts turn(board)
 
  if input <= 9
      puts 'X'
