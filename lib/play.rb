@@ -38,11 +38,11 @@ end
 # Define your play method below
 
 def play(board)
-  i=0
+  i=0 && i <= 9
 loop do
-   if i <= 9
-puts 'X'
    turn(board)
+puts 'X'
+  
      
    break
  end
