@@ -43,10 +43,12 @@ while i<9
   
    turn(board)
     i += 1
+    
 # puts 'X'
   # if i < 9 
   # break
 # end
+
  end
  end
 
