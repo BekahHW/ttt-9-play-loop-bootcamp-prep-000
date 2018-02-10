@@ -39,10 +39,7 @@ end
 
 def play(board)
   
-  (1..9).each do |a|
-  next if a.even?
-  puts a
-end
+  
   input = 1
 loop do
 turn(board)
