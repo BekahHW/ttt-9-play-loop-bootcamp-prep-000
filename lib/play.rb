@@ -40,7 +40,6 @@ end
 def play(board)
   input = 1
 loop do
-
 turn(board)
 
  if input <= 9
