@@ -36,3 +36,18 @@ def turn(board)
 end
 
 # Define your play method below
+
+def play(board)
+  input = 1
+loop do
+
+turn(board)
+
+ if input <= 9
+     puts 'X'
+     
+   break
+ end
+ end
+ end
+
